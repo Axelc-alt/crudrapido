@@ -13,6 +13,6 @@ public class Student {
     private Long student_id;
     @Column(name = "email_adress",unique = true,nullable = false)
     private String email;
-    private String firstame;
+    private String firstName;
     private String lastName;
 }
